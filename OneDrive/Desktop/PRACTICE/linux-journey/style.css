@@ -1,0 +1,919 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fffff4;
+    background-color: #2c3e50;
+    padding: 2vh 13vw;
+}
+/* header end */
+/* image start */
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #18bc9c ;
+    font-size: 50px;
+    color: #fffff4;
+}
+
+.image .image-1 img{
+    margin-left: 300px;
+    padding-bottom: 50px; 
+}
+
+/* image end */
+/* updates start */
+.updates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5vh;
+    color: gray;
+}
+
+.updates-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    gap: 20px;
+   
+}
+
+.updates-1 p{
+    border: 2px solid gray;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    width: 400px;
+    height: 40px;
+    padding-top: 8px;
+    color: gray;
+}
+
+.updates-1 button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid #18bc9c;
+    border-radius: 4px;
+    background-color: #18bc9c;
+    color: #f7f7f7;
+}
+
+/* updates end */
+
+/* grasshopper part-1 start */
+
+.grasshopper h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5vh;
+    color: gray;
+}
+
+.grasshopper-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2vh 10vw;
+}
+
+.grasshopper-1 .grasshopper-1-c1{
+    width: 250px;
+    height: 400px;
+    border: 2px  solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+    
+}
+
+.grasshopper-1 .grasshopper-1-c1:hover{
+    background-color: #18bc9c;
+}
+
+
+.grasshopper-1 .grasshopper-1-c2 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.grasshopper-1 .grasshopper-1-c2:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-1 .grasshopper-1-c3 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.grasshopper-1 .grasshopper-1-c3:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-1 .grasshopper-1-c4 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.grasshopper-1 .grasshopper-1-c4:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-1 .grasshopper-1-c1 .grasshopper-1-c1-g1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-1 .grasshopper-1-c1 .grasshopper-1-c1-g1 img{
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px ; 
+}
+
+.grasshopper-1 .grasshopper-1-c1 .grasshopper-1-c1-g1 p{
+    text-align: center;
+}
+
+.grasshopper-1 .grasshopper-1-c2 .grasshopper-1-c2-g2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-1 .grasshopper-1-c2 .grasshopper-1-c2-g2 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-1 .grasshopper-1-c2 .grasshopper-1-c2-g2 p {
+    text-align: center;
+}
+
+.grasshopper-1 .grasshopper-1-c3 .grasshopper-1-c3-g3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-1 .grasshopper-1-c3 .grasshopper-1-c3-g3 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-1 .grasshopper-1-c3 .grasshopper-1-c3-g3 p {
+    text-align: center;
+}
+
+.grasshopper-1 .grasshopper-1-c4 .grasshopper-1-c4-g4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-1 .grasshopper-1-c4 .grasshopper-1-c4-g4 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-1 .grasshopper-1-c4 .grasshopper-1-c4-g4 p {
+    text-align: center;
+}
+
+/* grasshopper part-1 end */
+
+/* grasshopper part-2 start */
+
+.grasshopper-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2vh 10vw;
+}
+
+.grasshopper-2 .grasshopper-2-c1 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.grasshopper-2 .grasshopper-2-c1:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-2 .grasshopper-2-c2 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.grasshopper-2 .grasshopper-2-c2:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-2 .grasshopper-2-c3 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.grasshopper-2 .grasshopper-2-c3:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-2 .grasshopper-2-c4 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.grasshopper-2 .grasshopper-2-c4:hover {
+    background-color: #18bc9c;
+}
+
+.grasshopper-2 .grasshopper-2-c1 .grasshopper-2-c1-g1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-2 .grasshopper-2-c1 .grasshopper-2-c1-g1 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-2 .grasshopper-2-c1 .grasshopper-2-c1-g1 p {
+    text-align: center;
+}
+
+.grasshopper-2 .grasshopper-2-c2 .grasshopper-2-c2-g2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-2 .grasshopper-2-c2 .grasshopper-2-c2-g2 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-2 .grasshopper-2-c2 .grasshopper-2-c2-g2 p {
+    text-align: center;
+}
+
+.grasshopper-2 .grasshopper-2-c3 .grasshopper-2-c3-g3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-2 .grasshopper-2-c3 .grasshopper-2-c3-g3 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-2 .grasshopper-2-c3 .grasshopper-2-c3-g3 p {
+    text-align: center;
+}
+
+.grasshopper-2 .grasshopper-2-c4 .grasshopper-2-c4-g4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grasshopper-2 .grasshopper-2-c4 .grasshopper-2-c4-g4 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grasshopper-2 .grasshopper-2-c4 .grasshopper-2-c4-g4 p {
+    text-align: center;
+}
+/* grasshopper part-2 end */
+/* journeyman part-1 start */
+
+.journeyman h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5vh;
+    color: gray;
+}
+
+.journeyman-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2vh 10vw;
+}
+
+.journeyman-1 .journeyman-1-c1 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.journeyman-1 .journeyman-1-c1:hover {
+    background-color: #18bc9c;
+}
+
+
+.journeyman-1 .journeyman-1-c2 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.journeyman-1 .journeyman-1-c2:hover {
+    background-color: #18bc9c;
+}
+
+.journeyman-1 .journeyman-1-c3 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.journeyman-1 .journeyman-1-c3:hover {
+    background-color: #18bc9c;
+}
+
+.journeyman-1 .journeyman-1-c4 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.journeyman-1 .journeyman-1-c4:hover {
+    background-color: #18bc9c;
+}
+
+.journeyman-1 .journeyman-1-c1 .journeyman-1-c1-g1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-1 .journeyman-1-c1 .journeyman-1-c1-g1 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.journeyman-1 .journeyman-1-c1 .journeyman-1-c1-g1 p {
+    text-align: center;
+}
+
+.journeyman-1 .journeyman-1-c2 .journeyman-1-c2-g2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-1 .journeyman-1-c2 .journeyman-1-c2-g2 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.journeyman-1 .journeyman-1-c2 .journeyman-1-c2-g2 p {
+    text-align: center;
+}
+
+.journeyman-1 .journeyman-1-c3 .journeyman-1-c3-g3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-1 .journeyman-1-c3 .journeyman-1-c3-g3 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.journeyman-1 .journeyman-1-c3 .journeyman-1-c3-g3 p {
+    text-align: center;
+}
+
+.journeyman-1 .journeyman-1-c4 .journeyman-1-c4-g4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-1 .journeyman-1-c4 .journeyman-1-c4-g4 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.journeyman-1 .journeyman-1-c4 .journeyman-1-c4-g4 p {
+    text-align: center;
+}
+
+/* journeyman part-1 end */
+
+/* journeyman part-2 start */
+
+.journeyman-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    background-color: #f7f7f7;
+    padding: 2vh 12vw;
+}
+
+.journeyman-2 .journeyman-2-c1 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.journeyman-2 .journeyman-2-c1:hover {
+    background-color: #18bc9c;
+}
+
+.journeyman-2 .journeyman-2-c2 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.journeyman-2 .journeyman-2-c2:hover {
+    background-color: #18bc9c;
+}
+
+.journeyman-2 .journeyman-2-c3 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.journeyman-2 .journeyman-2-c3:hover {
+    background-color: #18bc9c;
+}
+
+.journeyman-2 .journeyman-2-c1 .journeyman-2-c1-g1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-2 .journeyman-2-c1 .journeyman-2-c1-g1 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.journeyman-2 .journeyman-2-c1 .journeyman-2-c1-g1 p {
+    text-align: center;
+}
+
+.journeyman .journeyman-2-c2 .journeyman-2-c2-g2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-2 .journeyman-2-c2 .journeyman-2-c2-g2 img {
+    border: #fffff4;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.journeyman-2 .journeyman-2-c2 .journeyman-2-c2-g2 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.journeyman-2 .journeyman-2-c2 .journeyman-2-c2-g2 p {
+    text-align: center;
+}
+
+.journeyman-2 .journeyman-2-c3 .journeyman-2-c3-g3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.journeyman-2 .journeyman-2-c3 .journeyman-2-c3-g3 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.journeyman-2 .journeyman-2-c3 .journeyman-2-c3-g3 p {
+    text-align: center;
+}
+
+
+
+/*journeyman part-2 end */
+
+/* networking_nomad part-1 start */
+
+.networking_nomad h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5vh;
+    color: gray;
+}
+
+.networking_nomad-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2vh 10vw;
+}
+
+.networking_nomad-1 .networking_nomad-1-c1 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c1:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-1 .networking_nomad-1-c2 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c2:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-1 .networking_nomad-1-c3 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c3:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-1 .networking_nomad-1-c4 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c4:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-1 .networking_nomad-1-c1 .networking_nomad-1-c1-g1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-1 .networking_nomad-1-c1 .networking_nomad-1-c1-g1 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c1 .networking_nomad-1-c1-g1 p {
+    text-align: center;
+}
+
+.networking_nomad-1 .networking_nomad-1-c2 .networking_nomad-1-c2-g2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-1 .networking_nomad-1-c2 .networking_nomad-1-c2-g2 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c2 .networking_nomad-1-c2-g2 p {
+    text-align: center;
+}
+
+.networking_nomad-1 .networking_nomad-1-c3 .networking_nomad-1-c3-g3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-1 .networking_nomad-1-c3 .networking_nomad-1-c3-g3 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c3 .networking_nomad-1-c3-g3 p {
+    text-align: center;
+}
+
+.networking_nomad-1 .networking_nomad-1-c4 .networking_nomad-1-c4-g4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-1 .networking_nomad-1-c4 .networking_nomad-1-c4-g4 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-1 .networking_nomad-1-c4 .networking_nomad-1-c4-g4 p {
+    text-align: center;
+}
+
+/* networking_nomad part-1 end */
+
+/* networking_nomad part-2 start */
+
+.networking_nomad-2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2vh 12vw;
+    padding-bottom: 100px;
+}
+
+.networking_nomad-2 .networking_nomad-2-c1 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.networking_nomad-2 .networking_nomad-2-c1:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-2 .networking_nomad-2-c2 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.networking_nomad-2 .networking_nomad-2-c2:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-2 .networking_nomad-2-c3 {
+    width: 250px;
+    height: 400px;
+    border: 2px solid #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.networking_nomad-2 .networking_nomad-2-c3:hover {
+    background-color: #18bc9c;
+}
+
+.networking_nomad-2 .networking_nomad-2-c1 .networking_nomad-2-c1-g1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-2 .networking_nomad-2-c1 .networking_nomad-2-c1-g1 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-2 .networking_nomad-2-c1 .networking_nomad-2-c1-g1 p {
+    text-align: center;
+}
+
+.networking_nomad-2 .networking_nomad-2-c2 .networking_nomad-2-c2-g2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-2 .networking_nomad-2-c2 .networking_nomad-2-c2-g2 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-2 .networking_nomad-2-c2 .networking_nomad-2-c2-g2 p {
+    text-align: center;
+}
+
+.networking_nomad-2 .networking_nomad-2-c3 .networking_nomad-2-c3-g3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.networking_nomad-2 .networking_nomad-2-c3 .networking_nomad-2-c3-g3 img {
+    border: #fffff4;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.networking_nomad-2 .networking_nomad-2-c3 .networking_nomad-2-c3-g3 p {
+    text-align: center;
+}
+
+/* networking_nomad part-2 end */
+
+/* footer start */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6vh 15vw;
+    background-color: #2c3e50;
+}
+
+.footer .footer-1{
+    text-align: center;
+}
+
+.footer .footer-1 .footer-1-c1 a{
+    text-decoration: none;
+    color: #428bc2;
+}
+
+.footer .footer-2 {
+    text-align: center;
+    width: 300px;
+}
+
+.footer .footer-2 .footer-2-c2 a {
+    text-decoration: none;
+    color: #428bc2;
+}
+
+.footer .footer-3 {
+    text-align: center;
+    width: 300px;
+}
+
+.footer .footer-3 .footer-3-c3 a {
+    text-decoration: none;
+    color: #428bc2;
+}
